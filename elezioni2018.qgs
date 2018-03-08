@@ -1,0 +1,2969 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.0.0-Girona">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+      <srsid>3116</srsid>
+      <srid>32632</srid>
+      <authid>EPSG:32632</authid>
+      <description>WGS 84 / UTM zone 32N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/MOVIMENTO%205%20STELLE.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="MOVIMENTO 5 STELLE" providerKey="delimitedtext" id="MOVIMENTO_5_STELLE_5bbf80de_06e3_4833_bad8_18f3c0bebe4d">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/CIVICA%20POPOLARE%20LORENZIN.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="CIVICA POPOLARE LORENZIN" providerKey="delimitedtext" id="CIVICA_POPOLARE_LORENZIN_86e28f1b_8b86_47a4_9032_78473c03636e">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/ITALIA%20EUROPA%20INSIEME.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="ITALIA EUROPA INSIEME" providerKey="delimitedtext" id="ITALIA_EUROPA_INSIEME_34cc5c39_ad63_4c10_abf2_19889c7abb43">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/PARTITO%20DEMOCRATICO.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="PARTITO DEMOCRATICO" providerKey="delimitedtext" id="PARTITO_DEMOCRATICO_c848b346_a66d_42ad_bba5_419219d84aa7">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/LIBERI%20E%20UGUALI.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="LIBERI E UGUALI" providerKey="delimitedtext" id="LIBERI_E_UGUALI_6abe9e29_8e88_488b_8f4e_04d66525a0c2">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/SVP%20-%20PATT.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="SVP - PATT" providerKey="delimitedtext" id="SVP___PATT_5c88da13_17e9_4140_8112_aa03b932277e">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/LEGA.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="LEGA" providerKey="delimitedtext" id="LEGA_9d85a5fb_1429_4c08_9733_168769fc440d">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/NOI%20CON%20L'ITALIA%20-%20UDC.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="NOI CON L'ITALIA - UDC" providerKey="delimitedtext" id="NOI_CON_L_ITALIA___UDC_b0ab165f_02c7_4b65_80b8_fd1cbea8c355">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/FORZA%20ITALIA.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="FORZA ITALIA" providerKey="delimitedtext" id="FORZA_ITALIA_2cb67fcc_a033_432d_a840_fa64ed39da22">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/FRATELLI%20D'ITALIA%20CON%20GIORGIA%20MELONI.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="FRATELLI D'ITALIA CON GIORGIA MELONI" providerKey="delimitedtext" id="FRATELLI_D_ITALIA_CON_GIORGIA_MELONI_d32b755b_8255_4491_be94_7222d81452d7">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="file:///C:/Users/gsollazz/Dropbox/DEV/ddj/Italia%20Elezioni%202018/votesbyparty/+EUROPA.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="+EUROPA" providerKey="delimitedtext" id="_EUROPA_44962332_feed_4e8d_ba14_ff5324f2f4d4">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="./10000m5s.shp" name="10 m5s" providerKey="ogr" id="10000m5s_57e9904a_2349_44a8_bb68_29a7a9eecbfd">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="./10000cdx.shp" name="10 cdx" providerKey="ogr" id="10000cdx_107009fe_b0f0_4bda_86ac_5f53963cf34a">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="./10000csx.shp" name="10 csx" providerKey="ogr" id="10000csx_167084f7_b99f_40e5_90ad_1d0494cf0732">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="./Fixed_camera.shp" name="Camera" providerKey="ogr" id="Fixed_camera_25eb40a9_bc56_4354_a782_a618252f9494">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" source="./COLLEGI_ELETTORALI_2017/CAMERA_UNI_2017.shp" name="CAMERA_UNI_2017" providerKey="ogr" id="CAMERA_UNI_2017_c776355e_1165_49dd_9ebb_c262bad00de2">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>CAMERA_UNI_2017_c776355e_1165_49dd_9ebb_c262bad00de2</item>
+      <item>Fixed_camera_25eb40a9_bc56_4354_a782_a618252f9494</item>
+      <item>10000m5s_57e9904a_2349_44a8_bb68_29a7a9eecbfd</item>
+      <item>10000csx_167084f7_b99f_40e5_90ad_1d0494cf0732</item>
+      <item>10000cdx_107009fe_b0f0_4bda_86ac_5f53963cf34a</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" mode="2" type="1" unit="1" tolerance="12" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting enabled="0" type="1" units="1" tolerance="12" id="Fixed_camera_25eb40a9_bc56_4354_a782_a618252f9494"/>
+      <layer-setting enabled="0" type="1" units="1" tolerance="12" id="10000cdx_107009fe_b0f0_4bda_86ac_5f53963cf34a"/>
+      <layer-setting enabled="0" type="1" units="1" tolerance="12" id="10000m5s_57e9904a_2349_44a8_bb68_29a7a9eecbfd"/>
+      <layer-setting enabled="0" type="1" units="1" tolerance="12" id="CAMERA_UNI_2017_c776355e_1165_49dd_9ebb_c262bad00de2"/>
+      <layer-setting enabled="0" type="1" units="1" tolerance="12" id="10000csx_167084f7_b99f_40e5_90ad_1d0494cf0732"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>288310.82892000034917146</xmin>
+      <ymin>3901517.69850749894976616</ymin>
+      <xmax>1336984.57308000046759844</xmax>
+      <ymax>5252457.52619249932467937</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3116</srsid>
+        <srid>32632</srid>
+        <authid>EPSG:32632</authid>
+        <description>WGS 84 / UTM zone 32N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Checked" open="true" name="MOVIMENTO 5 STELLE" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="MOVIMENTO_5_STELLE_5bbf80de_06e3_4833_bad8_18f3c0bebe4d" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="CIVICA POPOLARE LORENZIN" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="CIVICA_POPOLARE_LORENZIN_86e28f1b_8b86_47a4_9032_78473c03636e" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="ITALIA EUROPA INSIEME" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="ITALIA_EUROPA_INSIEME_34cc5c39_ad63_4c10_abf2_19889c7abb43" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="PARTITO DEMOCRATICO" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="PARTITO_DEMOCRATICO_c848b346_a66d_42ad_bba5_419219d84aa7" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="LIBERI E UGUALI" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="LIBERI_E_UGUALI_6abe9e29_8e88_488b_8f4e_04d66525a0c2" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="SVP - PATT" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="SVP___PATT_5c88da13_17e9_4140_8112_aa03b932277e" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="LEGA" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="LEGA_9d85a5fb_1429_4c08_9733_168769fc440d" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="NOI CON L'ITALIA - UDC" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="NOI_CON_L_ITALIA___UDC_b0ab165f_02c7_4b65_80b8_fd1cbea8c355" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="FORZA ITALIA" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="FORZA_ITALIA_2cb67fcc_a033_432d_a840_fa64ed39da22" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="FRATELLI D'ITALIA CON GIORGIA MELONI" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="FRATELLI_D_ITALIA_CON_GIORGIA_MELONI_d32b755b_8255_4491_be94_7222d81452d7" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="+EUROPA" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="_EUROPA_44962332_feed_4e8d_ba14_ff5324f2f4d4" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="10 m5s" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="10000m5s_57e9904a_2349_44a8_bb68_29a7a9eecbfd" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="10 cdx" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="10000cdx_107009fe_b0f0_4bda_86ac_5f53963cf34a" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="10 csx" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="10000csx_167084f7_b99f_40e5_90ad_1d0494cf0732" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" open="true" name="Camera" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Fixed_camera_25eb40a9_bc56_4354_a782_a618252f9494" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Unchecked" open="true" name="CAMERA_UNI_2017" drawingOrder="-1" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="CAMERA_UNI_2017_c776355e_1165_49dd_9ebb_c262bad00de2" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" labelsEnabled="0" type="vector" maxScale="0" simplifyDrawingHints="1" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" geometry="Point" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1">
+      <extent>
+        <xmin>320362.47466334525961429</xmin>
+        <ymin>4083850.62467635096982121</ymin>
+        <xmax>1299189.12855282193049788</xmax>
+        <ymax>5160924.14369163382798433</ymax>
+      </extent>
+      <id>10000cdx_107009fe_b0f0_4bda_86ac_5f53963cf34a</id>
+      <datasource>./10000cdx.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>10 cdx</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3116</srsid>
+          <srid>32632</srid>
+          <authid>EPSG:32632</authid>
+          <description>WGS 84 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="78,247,255,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="1" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>6</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="id" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" labelsEnabled="0" type="vector" maxScale="0" simplifyDrawingHints="1" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" geometry="Point" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1">
+      <extent>
+        <xmin>317067.66175929340533912</xmin>
+        <ymin>4083796.00514518795534968</ymin>
+        <xmax>1304015.03355227038264275</xmax>
+        <ymax>5202099.749196857213974</ymax>
+      </extent>
+      <id>10000csx_167084f7_b99f_40e5_90ad_1d0494cf0732</id>
+      <datasource>./10000csx.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>10 csx</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3116</srsid>
+          <srid>32632</srid>
+          <authid>EPSG:32632</authid>
+          <description>WGS 84 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="255,0,20,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="1" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>6</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="id" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" labelsEnabled="0" type="vector" maxScale="0" simplifyDrawingHints="1" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" geometry="Point" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1">
+      <extent>
+        <xmin>322528.12107613129774109</xmin>
+        <ymin>4088063.63518151920288801</ymin>
+        <xmax>1307724.54011626681312919</xmax>
+        <ymax>5158070.95006180461496115</ymax>
+      </extent>
+      <id>10000m5s_57e9904a_2349_44a8_bb68_29a7a9eecbfd</id>
+      <datasource>./10000m5s.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>10 m5s</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3116</srsid>
+          <srid>32632</srid>
+          <authid>EPSG:32632</authid>
+          <description>WGS 84 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="255,255,56,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="1" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>6</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="id" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" labelsEnabled="0" type="vector" maxScale="0" simplifyDrawingHints="1" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" geometry="Polygon" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1">
+      <extent>
+        <xmin>313279.2514000004157424</xmin>
+        <ymin>3933682.93249999918043613</ymin>
+        <xmax>1312016.15060000028461218</xmax>
+        <ymax>5220292.2921999990940094</ymax>
+      </extent>
+      <id>CAMERA_UNI_2017_c776355e_1165_49dd_9ebb_c262bad00de2</id>
+      <datasource>./COLLEGI_ELETTORALI_2017/CAMERA_UNI_2017.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CAMERA_UNI_2017</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3116</srsid>
+          <srid>32632</srid>
+          <authid>EPSG:32632</authid>
+          <description>WGS 84 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxx="0" minz="0" maxy="0" miny="0" crs="" maxz="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="254,184,231,0" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.06" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="OBJECTID" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory sizeType="MM" sizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" opacity="1" scaleDependency="Area" backgroundAlpha="255" height="15" barWidth="5" penColor="#000000" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" width="15" diagramOrientation="Up" scaleBasedVisibility="0" lineSizeType="MM" rotationOffset="270" enabled="0" minimumSize="0" penWidth="0" maxScaleDenominator="1e+8" penAlpha="255" minScaleDenominator="0">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" label="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" priority="0" dist="0" showAll="1" zIndex="0" linePlacementFlags="18" placement="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM17U_COD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM17U_DEN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM17U_NOM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP_2011">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM_JOIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="CAM17U_COD" index="1" name=""/>
+        <alias field="CAM17U_DEN" index="2" name=""/>
+        <alias field="CAM17U_NOM" index="3" name=""/>
+        <alias field="POP_2011" index="4" name=""/>
+        <alias field="Shape_Leng" index="5" name=""/>
+        <alias field="Shape_Area" index="6" name=""/>
+        <alias field="CAM_JOIN" index="7" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" applyOnUpdate="0" expression=""/>
+        <default field="CAM17U_COD" applyOnUpdate="0" expression=""/>
+        <default field="CAM17U_DEN" applyOnUpdate="0" expression=""/>
+        <default field="CAM17U_NOM" applyOnUpdate="0" expression=""/>
+        <default field="POP_2011" applyOnUpdate="0" expression=""/>
+        <default field="Shape_Leng" applyOnUpdate="0" expression=""/>
+        <default field="Shape_Area" applyOnUpdate="0" expression=""/>
+        <default field="CAM_JOIN" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="OBJECTID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM17U_COD" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM17U_DEN" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM17U_NOM" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="POP_2011" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Shape_Leng" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Shape_Area" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM_JOIN" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" exp="" desc=""/>
+        <constraint field="CAM17U_COD" exp="" desc=""/>
+        <constraint field="CAM17U_DEN" exp="" desc=""/>
+        <constraint field="CAM17U_NOM" exp="" desc=""/>
+        <constraint field="POP_2011" exp="" desc=""/>
+        <constraint field="Shape_Leng" exp="" desc=""/>
+        <constraint field="Shape_Area" exp="" desc=""/>
+        <constraint field="CAM_JOIN" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;FORZA ITALIA_field_4&quot;">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="OBJECTID"/>
+          <column type="field" width="-1" hidden="0" name="CAM17U_COD"/>
+          <column type="field" width="215" hidden="0" name="CAM17U_DEN"/>
+          <column type="field" width="-1" hidden="0" name="CAM17U_NOM"/>
+          <column type="field" width="-1" hidden="0" name="POP_2011"/>
+          <column type="field" width="-1" hidden="0" name="Shape_Leng"/>
+          <column type="field" width="56" hidden="0" name="Shape_Area"/>
+          <column type="actions" width="-1" hidden="1"/>
+          <column type="field" width="-1" hidden="0" name="CAM_JOIN"/>
+          <column type="field" width="-1" hidden="0" name="FORZA ITALIA_field_4"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CAM17U_CAP"/>
+        <field editable="1" name="CAM17U_COD"/>
+        <field editable="1" name="CAM17U_DEN"/>
+        <field editable="1" name="CAM17U_NOM"/>
+        <field editable="1" name="CAM_JOIN"/>
+        <field editable="0" name="FORZA ITALIA_field_4"/>
+        <field editable="0" name="MOVIMENTO 5 STELLE_field_1"/>
+        <field editable="0" name="MOVIMENTO 5 STELLE_field_3"/>
+        <field editable="0" name="MOVIMENTO 5 STELLE_field_4"/>
+        <field editable="1" name="OBJECTID"/>
+        <field editable="0" name="PARTITO DEMOCRATICO_field_1"/>
+        <field editable="0" name="PARTITO DEMOCRATICO_field_3"/>
+        <field editable="0" name="PARTITO DEMOCRATICO_field_4"/>
+        <field editable="1" name="POP_2011"/>
+        <field editable="1" name="Shape_Area"/>
+        <field editable="1" name="Shape_Leng"/>
+        <field editable="0" name="votes_field_1"/>
+        <field editable="0" name="votes_field_3"/>
+        <field editable="0" name="votes_field_4"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CAM17U_CAP"/>
+        <field labelOnTop="0" name="CAM17U_COD"/>
+        <field labelOnTop="0" name="CAM17U_DEN"/>
+        <field labelOnTop="0" name="CAM17U_NOM"/>
+        <field labelOnTop="0" name="CAM_JOIN"/>
+        <field labelOnTop="0" name="FORZA ITALIA_field_4"/>
+        <field labelOnTop="0" name="MOVIMENTO 5 STELLE_field_1"/>
+        <field labelOnTop="0" name="MOVIMENTO 5 STELLE_field_3"/>
+        <field labelOnTop="0" name="MOVIMENTO 5 STELLE_field_4"/>
+        <field labelOnTop="0" name="OBJECTID"/>
+        <field labelOnTop="0" name="PARTITO DEMOCRATICO_field_1"/>
+        <field labelOnTop="0" name="PARTITO DEMOCRATICO_field_3"/>
+        <field labelOnTop="0" name="PARTITO DEMOCRATICO_field_4"/>
+        <field labelOnTop="0" name="POP_2011"/>
+        <field labelOnTop="0" name="Shape_Area"/>
+        <field labelOnTop="0" name="Shape_Leng"/>
+        <field labelOnTop="0" name="votes_field_1"/>
+        <field labelOnTop="0" name="votes_field_3"/>
+        <field labelOnTop="0" name="votes_field_4"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>OBJECTID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>CIVICA_POPOLARE_LORENZIN_86e28f1b_8b86_47a4_9032_78473c03636e</id>
+      <datasource>file:./votesbyparty/CIVICA%20POPOLARE%20LORENZIN.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CIVICA POPOLARE LORENZIN</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>FORZA_ITALIA_2cb67fcc_a033_432d_a840_fa64ed39da22</id>
+      <datasource>file:./votesbyparty/FORZA%20ITALIA.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>FORZA ITALIA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>FRATELLI_D_ITALIA_CON_GIORGIA_MELONI_d32b755b_8255_4491_be94_7222d81452d7</id>
+      <datasource>file:./votesbyparty/FRATELLI%20D'ITALIA%20CON%20GIORGIA%20MELONI.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>FRATELLI D'ITALIA CON GIORGIA MELONI</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" labelsEnabled="0" type="vector" maxScale="0" simplifyDrawingHints="1" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" geometry="Polygon" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1">
+      <extent>
+        <xmin>313279.2514000004157424</xmin>
+        <ymin>3933682.93249999918043613</ymin>
+        <xmax>1312016.15060000028461218</xmax>
+        <ymax>5220292.2921999990940094</ymax>
+      </extent>
+      <id>Fixed_camera_25eb40a9_bc56_4354_a782_a618252f9494</id>
+      <datasource>./Fixed_camera.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Camera</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3116</srsid>
+          <srid>32632</srid>
+          <authid>EPSG:32632</authid>
+          <description>WGS 84 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxx="0" minz="0" maxy="0" miny="0" crs="" maxz="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins>
+        <join targetFieldName="CAM_JOIN" joinLayerId="MOVIMENTO_5_STELLE_5bbf80de_06e3_4833_bad8_18f3c0bebe4d" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="MOVIMENTO 5 STELLE_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="_EUROPA_44962332_feed_4e8d_ba14_ff5324f2f4d4" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="+EUROPA_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="CIVICA_POPOLARE_LORENZIN_86e28f1b_8b86_47a4_9032_78473c03636e" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="CIVICA POPOLARE LORENZIN_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="PARTITO_DEMOCRATICO_c848b346_a66d_42ad_bba5_419219d84aa7" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="PARTITO DEMOCRATICO_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="ITALIA_EUROPA_INSIEME_34cc5c39_ad63_4c10_abf2_19889c7abb43" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="ITALIA EUROPA INSIEME_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="LEGA_9d85a5fb_1429_4c08_9733_168769fc440d" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="LEGA_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="FORZA_ITALIA_2cb67fcc_a033_432d_a840_fa64ed39da22" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="FORZA ITALIA_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="FRATELLI_D_ITALIA_CON_GIORGIA_MELONI_d32b755b_8255_4491_be94_7222d81452d7" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="FRATELLI D'ITALIA CON GIORGIA MELONI_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="NOI_CON_L_ITALIA___UDC_b0ab165f_02c7_4b65_80b8_fd1cbea8c355" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="NOI CON L'ITALIA - UDC_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="SVP___PATT_5c88da13_17e9_4140_8112_aa03b932277e" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="SVP - PATT_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+        <join targetFieldName="CAM_JOIN" joinLayerId="LIBERI_E_UGUALI_6abe9e29_8e88_488b_8f4e_04d66525a0c2" joinFieldName="field_2" hasCustomPrefix="1" upsertOnEdit="0" cascadedDelete="0" customPrefix="LIBERI E UGUALI_" editable="0" dynamicForm="0" memoryCache="1">
+          <joinFieldsSubset>
+            <field name="field_4"/>
+          </joinFieldsSubset>
+        </join>
+      </vectorjoins>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="167,237,230,0" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.06" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>OBJECTID</value>
+        </property>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory sizeType="MM" sizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" opacity="1" scaleDependency="Area" backgroundAlpha="255" height="15" barWidth="5" penColor="#000000" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" width="15" diagramOrientation="Up" scaleBasedVisibility="0" lineSizeType="MM" rotationOffset="270" enabled="0" minimumSize="0" penWidth="0" maxScaleDenominator="1e+8" penAlpha="255" minScaleDenominator="0">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" label="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" priority="0" dist="0" showAll="1" zIndex="0" linePlacementFlags="18" placement="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM17U_COD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM17U_DEN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM17U_NOM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP_2011">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAM_JOIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MOVIMENTO 5 STELLE_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="+EUROPA_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CIVICA POPOLARE LORENZIN_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARTITO DEMOCRATICO_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ITALIA EUROPA INSIEME_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEGA_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FORZA ITALIA_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOI CON L'ITALIA - UDC_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SVP - PATT_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LIBERI E UGUALI_field_4">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="CAM17U_COD" index="1" name=""/>
+        <alias field="CAM17U_DEN" index="2" name=""/>
+        <alias field="CAM17U_NOM" index="3" name=""/>
+        <alias field="POP_2011" index="4" name=""/>
+        <alias field="Shape_Leng" index="5" name=""/>
+        <alias field="Shape_Area" index="6" name=""/>
+        <alias field="CAM_JOIN" index="7" name=""/>
+        <alias field="MOVIMENTO 5 STELLE_field_4" index="8" name=""/>
+        <alias field="+EUROPA_field_4" index="9" name=""/>
+        <alias field="CIVICA POPOLARE LORENZIN_field_4" index="10" name=""/>
+        <alias field="PARTITO DEMOCRATICO_field_4" index="11" name=""/>
+        <alias field="ITALIA EUROPA INSIEME_field_4" index="12" name=""/>
+        <alias field="LEGA_field_4" index="13" name=""/>
+        <alias field="FORZA ITALIA_field_4" index="14" name=""/>
+        <alias field="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4" index="15" name=""/>
+        <alias field="NOI CON L'ITALIA - UDC_field_4" index="16" name=""/>
+        <alias field="SVP - PATT_field_4" index="17" name=""/>
+        <alias field="LIBERI E UGUALI_field_4" index="18" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" applyOnUpdate="0" expression=""/>
+        <default field="CAM17U_COD" applyOnUpdate="0" expression=""/>
+        <default field="CAM17U_DEN" applyOnUpdate="0" expression=""/>
+        <default field="CAM17U_NOM" applyOnUpdate="0" expression=""/>
+        <default field="POP_2011" applyOnUpdate="0" expression=""/>
+        <default field="Shape_Leng" applyOnUpdate="0" expression=""/>
+        <default field="Shape_Area" applyOnUpdate="0" expression=""/>
+        <default field="CAM_JOIN" applyOnUpdate="0" expression=""/>
+        <default field="MOVIMENTO 5 STELLE_field_4" applyOnUpdate="0" expression=""/>
+        <default field="+EUROPA_field_4" applyOnUpdate="0" expression=""/>
+        <default field="CIVICA POPOLARE LORENZIN_field_4" applyOnUpdate="0" expression=""/>
+        <default field="PARTITO DEMOCRATICO_field_4" applyOnUpdate="0" expression=""/>
+        <default field="ITALIA EUROPA INSIEME_field_4" applyOnUpdate="0" expression=""/>
+        <default field="LEGA_field_4" applyOnUpdate="0" expression=""/>
+        <default field="FORZA ITALIA_field_4" applyOnUpdate="0" expression=""/>
+        <default field="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4" applyOnUpdate="0" expression=""/>
+        <default field="NOI CON L'ITALIA - UDC_field_4" applyOnUpdate="0" expression=""/>
+        <default field="SVP - PATT_field_4" applyOnUpdate="0" expression=""/>
+        <default field="LIBERI E UGUALI_field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="OBJECTID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM17U_COD" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM17U_DEN" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM17U_NOM" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="POP_2011" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Shape_Leng" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Shape_Area" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CAM_JOIN" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MOVIMENTO 5 STELLE_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="+EUROPA_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CIVICA POPOLARE LORENZIN_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PARTITO DEMOCRATICO_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ITALIA EUROPA INSIEME_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="LEGA_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="FORZA ITALIA_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="NOI CON L'ITALIA - UDC_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SVP - PATT_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="LIBERI E UGUALI_field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" exp="" desc=""/>
+        <constraint field="CAM17U_COD" exp="" desc=""/>
+        <constraint field="CAM17U_DEN" exp="" desc=""/>
+        <constraint field="CAM17U_NOM" exp="" desc=""/>
+        <constraint field="POP_2011" exp="" desc=""/>
+        <constraint field="Shape_Leng" exp="" desc=""/>
+        <constraint field="Shape_Area" exp="" desc=""/>
+        <constraint field="CAM_JOIN" exp="" desc=""/>
+        <constraint field="MOVIMENTO 5 STELLE_field_4" exp="" desc=""/>
+        <constraint field="+EUROPA_field_4" exp="" desc=""/>
+        <constraint field="CIVICA POPOLARE LORENZIN_field_4" exp="" desc=""/>
+        <constraint field="PARTITO DEMOCRATICO_field_4" exp="" desc=""/>
+        <constraint field="ITALIA EUROPA INSIEME_field_4" exp="" desc=""/>
+        <constraint field="LEGA_field_4" exp="" desc=""/>
+        <constraint field="FORZA ITALIA_field_4" exp="" desc=""/>
+        <constraint field="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4" exp="" desc=""/>
+        <constraint field="NOI CON L'ITALIA - UDC_field_4" exp="" desc=""/>
+        <constraint field="SVP - PATT_field_4" exp="" desc=""/>
+        <constraint field="LIBERI E UGUALI_field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;MOVIMENTO 5 STELLE_field_4&quot;">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="OBJECTID"/>
+          <column type="field" width="-1" hidden="0" name="CAM17U_COD"/>
+          <column type="field" width="-1" hidden="0" name="CAM17U_DEN"/>
+          <column type="field" width="-1" hidden="0" name="CAM17U_NOM"/>
+          <column type="field" width="-1" hidden="0" name="POP_2011"/>
+          <column type="field" width="-1" hidden="0" name="Shape_Leng"/>
+          <column type="field" width="-1" hidden="0" name="Shape_Area"/>
+          <column type="field" width="-1" hidden="0" name="CAM_JOIN"/>
+          <column type="actions" width="-1" hidden="1"/>
+          <column type="field" width="-1" hidden="0" name="MOVIMENTO 5 STELLE_field_4"/>
+          <column type="field" width="-1" hidden="0" name="+EUROPA_field_4"/>
+          <column type="field" width="-1" hidden="0" name="CIVICA POPOLARE LORENZIN_field_4"/>
+          <column type="field" width="-1" hidden="0" name="PARTITO DEMOCRATICO_field_4"/>
+          <column type="field" width="-1" hidden="0" name="ITALIA EUROPA INSIEME_field_4"/>
+          <column type="field" width="-1" hidden="0" name="LEGA_field_4"/>
+          <column type="field" width="-1" hidden="0" name="FORZA ITALIA_field_4"/>
+          <column type="field" width="-1" hidden="0" name="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4"/>
+          <column type="field" width="-1" hidden="0" name="NOI CON L'ITALIA - UDC_field_4"/>
+          <column type="field" width="-1" hidden="0" name="SVP - PATT_field_4"/>
+          <column type="field" width="-1" hidden="0" name="LIBERI E UGUALI_field_4"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="0" name="+EUROPA_field_4"/>
+        <field editable="1" name="CAM17U_COD"/>
+        <field editable="1" name="CAM17U_DEN"/>
+        <field editable="1" name="CAM17U_NOM"/>
+        <field editable="1" name="CAM_JOIN"/>
+        <field editable="0" name="CIVICA POPOLARE LORENZIN_field_4"/>
+        <field editable="0" name="FORZA ITALIA_field_4"/>
+        <field editable="0" name="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4"/>
+        <field editable="0" name="ITALIA EUROPA INSIEME_field_4"/>
+        <field editable="0" name="LEGA_field_4"/>
+        <field editable="0" name="LIBERI E UGUALI_field_4"/>
+        <field editable="0" name="MOVIMENTO 5 STELLE_field_4"/>
+        <field editable="0" name="NOI CON L'ITALIA - UDC_field_4"/>
+        <field editable="1" name="OBJECTID"/>
+        <field editable="0" name="PARTITO DEMOCRATICO_field_4"/>
+        <field editable="1" name="POP_2011"/>
+        <field editable="0" name="SVP - PATT_field_4"/>
+        <field editable="1" name="Shape_Area"/>
+        <field editable="1" name="Shape_Leng"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="+EUROPA_field_4"/>
+        <field labelOnTop="0" name="CAM17U_COD"/>
+        <field labelOnTop="0" name="CAM17U_DEN"/>
+        <field labelOnTop="0" name="CAM17U_NOM"/>
+        <field labelOnTop="0" name="CAM_JOIN"/>
+        <field labelOnTop="0" name="CIVICA POPOLARE LORENZIN_field_4"/>
+        <field labelOnTop="0" name="FORZA ITALIA_field_4"/>
+        <field labelOnTop="0" name="FRATELLI D'ITALIA CON GIORGIA MELONI_field_4"/>
+        <field labelOnTop="0" name="ITALIA EUROPA INSIEME_field_4"/>
+        <field labelOnTop="0" name="LEGA_field_4"/>
+        <field labelOnTop="0" name="LIBERI E UGUALI_field_4"/>
+        <field labelOnTop="0" name="MOVIMENTO 5 STELLE_field_4"/>
+        <field labelOnTop="0" name="NOI CON L'ITALIA - UDC_field_4"/>
+        <field labelOnTop="0" name="OBJECTID"/>
+        <field labelOnTop="0" name="PARTITO DEMOCRATICO_field_4"/>
+        <field labelOnTop="0" name="POP_2011"/>
+        <field labelOnTop="0" name="SVP - PATT_field_4"/>
+        <field labelOnTop="0" name="Shape_Area"/>
+        <field labelOnTop="0" name="Shape_Leng"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>OBJECTID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>ITALIA_EUROPA_INSIEME_34cc5c39_ad63_4c10_abf2_19889c7abb43</id>
+      <datasource>file:./votesbyparty/ITALIA%20EUROPA%20INSIEME.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ITALIA EUROPA INSIEME</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>LEGA_9d85a5fb_1429_4c08_9733_168769fc440d</id>
+      <datasource>file:./votesbyparty/LEGA.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>LEGA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>LIBERI_E_UGUALI_6abe9e29_8e88_488b_8f4e_04d66525a0c2</id>
+      <datasource>file:./votesbyparty/LIBERI%20E%20UGUALI.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>LIBERI E UGUALI</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>MOVIMENTO_5_STELLE_5bbf80de_06e3_4833_bad8_18f3c0bebe4d</id>
+      <datasource>file:./votesbyparty/MOVIMENTO%205%20STELLE.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MOVIMENTO 5 STELLE</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>NOI_CON_L_ITALIA___UDC_b0ab165f_02c7_4b65_80b8_fd1cbea8c355</id>
+      <datasource>file:./votesbyparty/NOI%20CON%20L'ITALIA%20-%20UDC.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>NOI CON L'ITALIA - UDC</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>PARTITO_DEMOCRATICO_c848b346_a66d_42ad_bba5_419219d84aa7</id>
+      <datasource>file:./votesbyparty/PARTITO%20DEMOCRATICO.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PARTITO DEMOCRATICO</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>SVP___PATT_5c88da13_17e9_4140_8112_aa03b932277e</id>
+      <datasource>file:./votesbyparty/SVP%20-%20PATT.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SVP - PATT</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="vector" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" geometry="No geometry" minScale="1e+8" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <id>_EUROPA_44962332_feed_4e8d_ba14_ff5324f2f4d4</id>
+      <datasource>file:./votesbyparty/+EUROPA.csv?type=csv&amp;useHeader=No&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>+EUROPA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="field_2" index="1" name=""/>
+        <alias field="field_3" index="2" name=""/>
+        <alias field="field_4" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="field_1" applyOnUpdate="0" expression=""/>
+        <default field="field_2" applyOnUpdate="0" expression=""/>
+        <default field="field_3" applyOnUpdate="0" expression=""/>
+        <default field="field_4" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="field_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_2" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_3" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_4" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="field_1" exp="" desc=""/>
+        <constraint field="field_2" exp="" desc=""/>
+        <constraint field="field_3" exp="" desc=""/>
+        <constraint field="field_4" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="CAMERA_UNI_2017_c776355e_1165_49dd_9ebb_c262bad00de2"/>
+    <layer id="Fixed_camera_25eb40a9_bc56_4354_a782_a618252f9494"/>
+    <layer id="10000m5s_57e9904a_2349_44a8_bb68_29a7a9eecbfd"/>
+    <layer id="10000csx_167084f7_b99f_40e5_90ad_1d0494cf0732"/>
+    <layer id="10000cdx_107009fe_b0f0_4bda_86ac_5f53963cf34a"/>
+  </layerorder>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <SearchMethod type="int">0</SearchMethod>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+    </PAL>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Gui>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>
